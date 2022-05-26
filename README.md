@@ -110,5 +110,8 @@ git --version
 
 Ps: If there is any problems above,so you have to fix them, if you have everything in order dan you can start the project.
 
+# How to create a Solana wallet 
+
+## Create a File System Wallet
 
 
