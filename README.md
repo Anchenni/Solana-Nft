@@ -48,5 +48,67 @@ Go to [Nodejs website](https://nodejs.org/en/)
 # How to install Ts-node
 Got the [Ts-node website](https://www.npmjs.com/package/ts-node)
 
-For me i choose to install it as globally with the command bellows
+In my case i choose to install it as globally with the command bellows:
+```
+npm install -g ts-node
+```
+# How to install Yarn
+Go to [Yarn website](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
+
+I did the same for Yarn with the command bellows:
+```
+npm install --global yarn
+```
+# How to install Git 
+Go to the [Git website](url) and follow the instructions.
+
+# Code editor 
+I use visualcode as code editor, if you want to use an other code editor , you can choose what ever you need.
+Ex: Nodepath...etc
+## How to install Visual Studio Code
+Go to [Visual Studio Code Website](https://code.visualstudio.com/) 
+
+# How to verify if everything has been installed correctly 
+
+## For Solana cli type this commande:
+```
+solana --version
+```
+
+<img width="457" alt="Screenshot 2022-05-26 at 18 46 06" src="https://user-images.githubusercontent.com/58232633/170535276-5b1981e4-9c69-4da5-af29-1eed6fa77ca3.png">
+
+## For Node js type this commande:
+```
+node --version
+```
+
+<img width="439" alt="Screenshot 2022-05-26 at 18 48 40" src="https://user-images.githubusercontent.com/58232633/170535556-d089fffb-4c4f-443c-a34b-ecf12e48d3f0.png">
+
+## For Ts-node type this commande:
+```
+ts-node --version
+```
+
+<img width="462" alt="Screenshot 2022-05-26 at 18 50 43" src="https://user-images.githubusercontent.com/58232633/170535995-9651a072-1897-4d8c-b8eb-0b020a2eb9c2.png">
+
+## For Yarn type this commande:
+
+```
+yarn --version
+```
+
+<img width="441" alt="Screenshot 2022-05-26 at 18 52 02" src="https://user-images.githubusercontent.com/58232633/170536585-0e857868-5a53-4e04-8a26-3125dd355c2c.png">
+
+## For Git type this commande:
+
+```
+git --version
+```
+
+<img width="445" alt="Screenshot 2022-05-26 at 18 57 16" src="https://user-images.githubusercontent.com/58232633/170537260-26450894-a1fa-41f0-9e5b-d9f7351e663a.png">
+
+
+Ps: If there is any problems above,so you have to fix them, if you have everything in order dan you can start the project.
+
+
 
