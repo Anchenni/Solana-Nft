@@ -114,4 +114,90 @@ Ps: If there is any problems above,so you have to fix them, if you have everythi
 
 ## Create a File System Wallet
 
+```
+mkdir solana-nft
+solana-keygen new --outfile ./keypair.json
+```
+After click on enter , the programme will ask you passphrase you kan skap that or set up a password.
+
+If verytyhing is ok you will see:
+
+```
+Generating a new keypair
+
+For added security, enter a BIP39 passphrase
+
+NOTE! This passphrase improves security of the recovery seed phrase NOT the
+keypair file itself, which is stored as insecure plain text
+
+BIP39 Passphrase (empty for none): 
+
+Wrote new keypair to ./keypair.json
+==========================================================================
+pubkey: G16aCw2b8EQodL6mNxTJMjF35xkH7Dkovg4uDDXFX55T
+==========================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+truth acquire local weapon spot effort busy copy fringe narrow aware goose
+```
+
+Save your pubkey
+
+# Download the Metaplex project 
+
+```
+git clone https://github.com/metaplex-foundation/metaplex.git
+
+```
+
+## now we gonna install the metaplax package with yarn 
+
+```
+yarn install --cwd ~/Solana-project/solana-nft-test/metaplex/js/
+```
+
+Now we gonna configure the solana network and the keypair tha json file for solana wallet
+
+```
+solana config set --url https://api.devnet.solana.com
+```
+```
+Config File: ~/.config/solana/cli/config.yml
+RPC URL: https://api.devnet.solana.com 
+WebSocket URL: wss://api.devnet.solana.com/ (computed)
+Keypair Path: keypair.json 
+Commitment: confirmed 
+```
+```
+solana config set --keypair keypair.json
+```
+```
+Config File: ~/.config/solana/cli/config.yml
+RPC URL: https://api.devnet.solana.com 
+WebSocket URL: wss://api.devnet.solana.com/ (computed)
+Keypair Path: keypair.json 
+Commitment: confirmed
+```
+## To get the balance of your new wallet 
+
+```
+address balance
+```
+
+## Add 2 solana to the wallet 
+
+```
+solana airdrop 2 
+```
+```
+Requesting airdrop of 2 SOL
+
+Signature: 5YxNEqWVAfXjppbFDQhh4XaJEPLaYKkWZ5LwHBxAZeNWpDdi8o1qWwxNvkpKzdEbFNZQ44dYDMeGMJrbj4wznqdG
+
+2 SOL
+```
+## Now we gonna create a new file config.json
+```
+touch config.json
+
+```
 
